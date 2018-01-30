@@ -21,7 +21,7 @@ class River
   end
 
   def remove_fish
-    @fish_population.delete
+    @fish_population.pop
   end
 
 end
